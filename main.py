@@ -9,14 +9,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
 import root
-from basic import out
+from basic import out, sub
 
 mobile_emulation = {
     "userAgent": "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/90.0.1025.166 Mobile Safari/535.19"}
 
 TIMEOUT = 10
 
-user = basic.sub('enter the username')
+user = sub('enter the username')
 
 def run(user):
     out('setting options')
