@@ -133,3 +133,5 @@ def run(user):
         bot.quit()
     else:
         bot.quit()
+
+run(user)
