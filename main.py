@@ -20,7 +20,7 @@ user = sub('enter the username')
 
 def run(user):
     out('setting options')
-    options = webdriver.ChromeOptions()
+    options = webdriver.Firefox()
     #options.add_argument("--headless")
     options.add_argument('--no-sandbox')
     options.add_argument("--log-level=3")
